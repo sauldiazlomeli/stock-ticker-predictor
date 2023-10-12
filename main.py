@@ -1,11 +1,8 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import pandas_datareader as data
-import yfinance as yf
 import streamlit as st
-
-from pandas_datareader import data as pdr
+import yfinance as yf
 from keras.models import load_model
 
 # "yf.pdr_override()" will allow us to use pandas_datareader syntax
