@@ -139,4 +139,6 @@ plt.ylabel('Price')
 plt.legend()
 st.pyplot(fig2)
 
-st.write(print(f"Tomorrow's Stock Price Prediction is: {np.around(y_predicted[-1], 2)}"))
+st.subheader('Tomorrow's Stock Price is: ')
+
+st.write(np.around(y_predicted[-1], 2))
